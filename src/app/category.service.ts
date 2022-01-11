@@ -19,4 +19,14 @@ export class CategoryService {
   {
     return this.http.post(`${server}/dealbazzar/saveCategory`,data)
   }
+
+  public updateCategory(ob:any) : Observable<any>
+  {
+    return this.http.put(`${server}/dealbazzar/updateCategory`,ob)
+  }
+
+  public deleteCategory(categoryId:String) : Observable<any>
+  {
+    return this.http.delete(`${server}/dealbazzar/deleteCategory/${categoryId}`,{observe: 'response'})
+  }
 }

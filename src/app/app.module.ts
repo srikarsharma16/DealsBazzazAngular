@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { ViewcategoryComponent } from './viewcategory/viewcategory.component';
 import { AddcategoryComponent } from './addcategory/addcategory.component';
+import { PaymenttypeComponent } from './paymenttype/paymenttype.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { AddcategoryComponent } from './addcategory/addcategory.component';
     AppComponent,
     ViewcategoryComponent,
     AddcategoryComponent,
+    PaymenttypeComponent,
     
   ],
   imports: [
