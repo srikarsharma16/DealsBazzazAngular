@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-var server="http://localhost:8080"
+var server="http://localhost:9090"
 
 @Injectable({
   providedIn: 'root'

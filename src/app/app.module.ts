@@ -8,6 +8,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { ViewcategoryComponent } from './viewcategory/viewcategory.component';
 import { AddcategoryComponent } from './addcategory/addcategory.component';
 import { PaymenttypeComponent } from './paymenttype/paymenttype.component';
+import { ViewuserComponent } from './viewuser/viewuser.component';
+import { ViewproductComponent } from './viewproduct/viewproduct.component';
+
 
 
 @NgModule({
@@ -16,6 +19,8 @@ import { PaymenttypeComponent } from './paymenttype/paymenttype.component';
     ViewcategoryComponent,
     AddcategoryComponent,
     PaymenttypeComponent,
+    ViewuserComponent,
+    ViewproductComponent,
     
   ],
   imports: [

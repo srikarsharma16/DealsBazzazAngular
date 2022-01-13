@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
-var server="http://localhost:8080" 
+var server="http://localhost:9090" 
 
 @Injectable({
   providedIn: 'root'
@@ -27,6 +27,6 @@ export class PaymenttypeService {
 
   public deletePayment(paymentTypeId:String) : Observable<any>
   {
-    return this.http.delete(`${server}/dealbazzar/deleteCategory/${paymentTypeId}`,{observe: 'response'})
+    return this.http.delete(`${server}/dealbazzar/deletePaymentType/${paymentTypeId}`,{observe: 'response'})
   }
 }

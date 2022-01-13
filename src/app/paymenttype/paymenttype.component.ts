@@ -11,6 +11,8 @@ export class PaymenttypeComponent implements OnInit {
 
   public payment: any = [];
 
+  public payments:any = [];
+
   public editDetails:any = {
     editpayment : undefined,
     editstatus : false 
@@ -18,11 +20,18 @@ export class PaymenttypeComponent implements OnInit {
 
   constructor(private paymenttypeservice: PaymenttypeService) { }
 
-  ngOnInit(): void {
+  /* ngOnInit(): void {
     this.paymenttypeservice.getPaymentType().subscribe((data: any) => {
       this.payment = data.data
       console.log(this.payment)
       console.log(data.data)
+    });
+  } */
+
+  ngOnInit(): void {
+    this.paymenttypeservice.getPaymentType().subscribe((data:any)=>{
+      this.payment = data.data
+      console.log(this.payment)
     });
   }
 

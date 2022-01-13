@@ -33,7 +33,7 @@ export class AddcategoryComponent implements OnInit {
     {     
       this.categories = this.categories.map((ob:any)=>ob.categoryId==this.editDetails.editcategory.categoryId?data:ob)
       this.editDetails= {
-        editpatient : undefined,
+        editcategory : undefined,
         editstatus : false
       }
     })
