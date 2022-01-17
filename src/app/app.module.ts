@@ -10,6 +10,8 @@ import { AddcategoryComponent } from './addcategory/addcategory.component';
 import { PaymenttypeComponent } from './paymenttype/paymenttype.component';
 import { ViewuserComponent } from './viewuser/viewuser.component';
 import { ViewproductComponent } from './viewproduct/viewproduct.component';
+import { AdminLoginComponent } from './admin-login/admin-login.component';
+import { AdminUsesComponent } from './admin-uses/admin-uses.component';
 
 
 
@@ -21,6 +23,8 @@ import { ViewproductComponent } from './viewproduct/viewproduct.component';
     PaymenttypeComponent,
     ViewuserComponent,
     ViewproductComponent,
+    AdminLoginComponent,
+    AdminUsesComponent,
     
   ],
   imports: [
